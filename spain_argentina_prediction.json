@@ -1,0 +1,101 @@
+{
+  "match": "Spain vs Argentina",
+  "date": "2026-07-19",
+  "training_matches": 19784,
+  "blend_weight_classifier": 0.32,
+  "calibration_temperature": 1.04,
+  "validation": {
+    "classifier": {
+      "log_loss": 0.8846864665015931,
+      "accuracy": 0.6002964426877471,
+      "brier": 0.5197020712483378
+    },
+    "poisson": {
+      "log_loss": 0.8812276528774294,
+      "accuracy": 0.6027667984189723,
+      "brier": 0.517224876382883
+    },
+    "ensemble": {
+      "log_loss": 0.879947843318036,
+      "accuracy": 0.6067193675889329,
+      "brier": 0.516862789227113
+    }
+  },
+  "test_2024_to_2026_07_18": {
+    "classifier": {
+      "log_loss": 0.8634987489312062,
+      "accuracy": 0.6060263653483993,
+      "brier": 0.5082956734580413
+    },
+    "poisson": {
+      "log_loss": 0.8637614714238695,
+      "accuracy": 0.6071563088512241,
+      "brier": 0.5070173312318139
+    },
+    "ensemble": {
+      "log_loss": 0.8614614114996406,
+      "accuracy": 0.607532956685499,
+      "brier": 0.5063318415100607
+    }
+  },
+  "elo": {
+    "Spain": 2105.6370519721004,
+    "Argentina": 2120.6659709921796
+  },
+  "expected_goals": {
+    "Spain": 1.4193257093429565,
+    "Argentina": 1.182043194770813
+  },
+  "probabilities_90_minutes": {
+    "Spain": 0.40361173606407064,
+    "Draw": 0.2767072744607061,
+    "Argentina": 0.3196809894752232
+  },
+  "components": {
+    "enhanced_xgboost": {
+      "Spain": 0.3944796919822693,
+      "Draw": 0.2600897550582886,
+      "Argentina": 0.34543052315711975
+    },
+    "dixon_coles_poisson": {
+      "Spain": 0.4121619353536132,
+      "Draw": 0.28130093176308,
+      "Argentina": 0.3065371328833068
+    }
+  },
+  "top_scorelines": [
+    {
+      "score": "Spain 1-1 Argentina",
+      "probability": 0.1343937818663093
+    },
+    {
+      "score": "Spain 1-0 Argentina",
+      "probability": 0.09531913484137393
+    },
+    {
+      "score": "Spain 2-1 Argentina",
+      "probability": 0.08830951378642686
+    },
+    {
+      "score": "Spain 0-0 Argentina",
+      "probability": 0.08412709726475492
+    },
+    {
+      "score": "Spain 0-1 Argentina",
+      "probability": 0.07771941562200411
+    },
+    {
+      "score": "Spain 2-0 Argentina",
+      "probability": 0.07470921043925914
+    },
+    {
+      "score": "Spain 1-2 Argentina",
+      "probability": 0.07354595151601111
+    },
+    {
+      "score": "Spain 2-2 Argentina",
+      "probability": 0.05219282990238258
+    }
+  ],
+  "pick_90_minutes": "Spain"
+}
