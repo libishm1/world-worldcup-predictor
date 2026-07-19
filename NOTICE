@@ -1,0 +1,7 @@
+World World Cup Predictor
+
+This repository contains a substantially modified and extended predictor based on the
+MIT-licensed project `mar-antaya/world_cup_predictions` by Mariana Antaya.
+
+Historical match data is downloaded from `martj42/international_results` and remains
+subject to the terms and attribution of that source repository.
